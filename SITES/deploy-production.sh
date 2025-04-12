@@ -10,3 +10,4 @@ sleep 1
 echo "Uploading artifacts to production server..."
 sleep 1
 echo "Deployment to PRODUCTION complete!"
+echo "Notifying team about successful PRODUCTION deployment..."
