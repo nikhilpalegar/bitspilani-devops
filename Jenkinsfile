@@ -13,7 +13,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/nikhilpalegar/bitspilani-devops'
+                echo "Checking out brnach: ${env.BRANCH_NAME}"
+                Checkout scm
             }
         }
 
