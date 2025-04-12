@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checking out brnach: ${env.BRANCH_NAME}"
-                Checkout scm
+                checkout scm
             }
         }
 
